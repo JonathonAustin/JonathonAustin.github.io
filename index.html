@@ -1,26 +1,687 @@
-<details class="disclosure-closed"><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">About me</summary>
-    <div class="indented">
-        <p id="3527da8d-9760-4362-8588-c17d8438bc99" class="">Jonathon Austin</p>
-        <p id="2f93f4ac-5cc4-42ef-8638-868793174ea2" class="">Starting out in Art History, I&#x27;ve uncovered a whole new world in data analytics. I&#x27;ve taken my love for understanding complex masterpieces by great artists to diving into datasets, finding patterns and insights, and communicating them efficiently (but also aesthetically). Now, I&#x27;m curating data-centric solutions. I&#x27;m all about Python, SQL, and visualization tools.</p>
-    </div>
-</details>
 
-<hr id="c0b9304e-cc55-4f5e-99b6-8a38a01d5c15"/>
-<p id="c82a6aa8-8d9e-4097-9554-adcbbd0f8bed" class=""></p>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Jonathon Austin</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
 
-<details class="disclosure-closed"><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">Projects</summary>
-    <div class="indented">
-        <details class="disclosure-closed"><summary style="font-weight:600;font-size:1.5em;line-height:1.3;margin:0">Operational Dashboard — Google Merchandise Store </summary>
-            <div class="indented">
-                <p id="4f1bdc51-5511-4b79-9676-00b20374c173" class=""><strong>Tools Used</strong>: Looker Studio</p>
-                <p id="0ac05d62-afcb-410d-8292-2fd02c0c6e64" class=""><strong>Link: </strong><a href="https://lookerstudio.google.com/reporting/914d9dce-1a39-4f38-b5d2-59caec90719a">https://lookerstudio.google.com/reporting/914d9dce-1a39-4f38-b5d2-59caec90719a</a></p>
-                <figure id="3e84e6cf-cbc9-4d3e-823c-06b312b277c6">
-                    <div class="source"><a href="https://lookerstudio.google.com/embed/reporting/914d9dce-1a39-4f38-b5d2-59caec90719a/page/AHzhD">https://lookerstudio.google.com/embed/reporting/914d9dce-1a39-4f38-b5d2-59caec90719a/page/AHzhD</a></div>
-                    <figcaption>Click link above to open the dashboard in full-size view</figcaption>
-                </figure>
-                <p id="1934be85-4ba9-4cd9-8e10-8302622ee12f" class="">This proposal involved building an operational dashboard analyzing the e-commerce performance of <a href="https://shop.merch.google/">Google Merchandise Store</a>. The dataset utilized was the <a href="https://analytics.google.com/analytics/web/?utm_source=demoaccount&amp;utm_medium=demoaccount&amp;utm_campaign=demoaccount#/p213025502/reports/intelligenthome">Google Analytics 4 - Google Merch Store</a>, provided by Google for demonstration purposes. By using the official data source directly from Google, we can ensure that the analyzed data is authentic, reliable, and representative of real-world scenarios. This dataset provides a comprehensive range of data points and metrics — granting opportunity to explore various aspects of e-commerce data, such as user acquisition, session engagement, product performance, and revenue trends.</p>
-                <p id="afb7ceb1-c15e-4156-8f9b-41d7eaf7ff26" class="">This task was accomplished on Looker Studio (FKA Google Data Studio), Google’s data...</p>
-            </div>
-        </details>
-    </div>
-</details>
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-transparentGray { background-color: rgba(227, 226, 224, 0); }
+.select-value-color-translucentGray { background-color: rgba(0, 0, 0, 0.06); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="0057d2ea-72cd-4f90-abd7-04b2dda4910d" class="page sans"><header><div class="page-header-icon undefined"><span class="icon">👨🏻‍💻</span></div><h1 class="page-title">Jonathon Austin</h1><p class="page-description"></p></header><div class="page-body"><details open=""><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">About me</summary><div class="indented"><p id="2f93f4ac-5cc4-42ef-8638-868793174ea2" class="">Starting out in Art History, I&#x27;ve uncovered a whole new world in data analytics. I&#x27;ve taken my love for understanding complex masterpieces by great artists to diving into datasets, finding patterns and insights, and communicating them efficiently (but also aesthetically). Now, I&#x27;m curating data-centric solutions. I&#x27;m all about Python, SQL, and visualization tools.</p></div></details><hr id="c0b9304e-cc55-4f5e-99b6-8a38a01d5c15"/><p id="c82a6aa8-8d9e-4097-9554-adcbbd0f8bed" class="">
+</p><details open=""><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">Projects</summary><div class="indented"><details open=""><summary style="font-weight:600;font-size:1.5em;line-height:1.3;margin:0">Operational Dashboard — Google Merchandise Store </summary><div class="indented"><p id="4f1bdc51-5511-4b79-9676-00b20374c173" class=""><strong>Tools Used</strong>: Looker Studio</p><p id="0ac05d62-afcb-410d-8292-2fd02c0c6e64" class=""><strong>Link: </strong><a href="https://lookerstudio.google.com/reporting/914d9dce-1a39-4f38-b5d2-59caec90719a">https://lookerstudio.google.com/reporting/914d9dce-1a39-4f38-b5d2-59caec90719a</a></p><figure id="3e84e6cf-cbc9-4d3e-823c-06b312b277c6"><div class="source"><a href="https://lookerstudio.google.com/embed/reporting/914d9dce-1a39-4f38-b5d2-59caec90719a/page/AHzhD">https://lookerstudio.google.com/embed/reporting/914d9dce-1a39-4f38-b5d2-59caec90719a/page/AHzhD</a></div><figcaption>Click link above to open the dashboard in full-size view</figcaption></figure><p id="1934be85-4ba9-4cd9-8e10-8302622ee12f" class="">This proposal involved building an operational dashboard analyzing the e-commerce performance of <a href="https://shop.merch.google/">Google Merchandise Store</a>. The dataset utilized was the <a href="https://analytics.google.com/analytics/web/?utm_source=demoaccount&amp;utm_medium=demoaccount&amp;utm_campaign=demoaccount#/p213025502/reports/intelligenthome">Google Analytics 4 - Google Merch Store</a>, provided by Google for demonstration purposes. By using the official data source directly from Google, we can ensure that the analyzed data is authentic, reliable, and representative of real-world scenarios. This dataset provides a comprehensive range of data points and metrics — granting opportunity to explore various aspects of e-commerce data, such as user acquisition, session engagement, product performance, and revenue trends.</p><p id="afb7ceb1-c15e-4156-8f9b-41d7eaf7ff26" class="">This task was accomplished on Looker Studio (FKA Google Data Studio), Google’s data visualization and reporting platform. The choice was based on it integrating seamlessly with a range of data sources, such as Google Sheets, BigQuery, and most importantly in this case, Google Analytics (GA4). This streamlines data management and the analysis workflow, avoiding complex data transformations or any third-party tools. GA4 uses an event-based data collection model, meaning it captures and tracks individual user interactions across various devices and platforms as events. Its granular level of data capture matters in e-commerce contexts because it allows for detailed analysis of user actions  (e.g. product views, add-to-carts, purchases).</p><p id="d9eb7212-4063-4271-a370-99c22a2dcbb1" class="">Upon an exploratory examination of the dataset, I understood a user analysis would be important in understanding user behaviour and characteristics. This allows us to begin addressing the query &#x27;Who are our customers?&#x27;.</p><p id="9255729f-d223-4a5c-bcd5-0da17dc119d3" class="">The website sessions section represents the activities of users on the e-commerce platform. This is paramount as optimizing user sessions leads to improved experiences and increased conversions. This section grants insight into user behavior and the customer journey. We can explore session duration, event count, and conversions per device type. These insights help answer questions like: How are users accessing and navigating the website? What tracked user events are most and least prominent?</p><p id="b01c9649-3037-4800-bd28-3a1ad7641cc8" class="">The core of any e-commerce business is the performance of products and revenue generated. A product and revenue analysis is essential for understanding which products drive user interest, identifying top-selling and underperforming products, and monitoring revenue trends over time.</p><p id="827688bd-5c43-423b-b8bc-db01f5b50c6b" class=""><strong>Results:</strong> (Describe the outcome of the project and any significant findings)</p><ul id="98cf9acb-8cf9-40a1-be22-925d91a790f4" class="bulleted-list"><li style="list-style-type:disc">Summarize the key insights and findings you&#x27;ve derived from your analysis, tying them back to the overall business objectives or questions you aimed to address.</li></ul><ul id="c3ac95c5-6dcf-41e9-86c4-3a86025df93c" class="bulleted-list"><li style="list-style-type:disc">Highlight the value and impact of your dashboard in supporting data-driven decision-making for the Google Merchandise Store or similar e-commerce businesses.</li></ul></div></details><hr id="500d3d11-a6b8-4c42-b83a-0654a89beb5e"/><p id="18476064-e0a4-40cd-b46e-4a6eb3e725c5" class="">
+</p><details open=""><summary style="font-weight:600;font-size:1.5em;line-height:1.3;margin:0">Operational Dashboard — Grocery Chain</summary><div class="indented"><p id="bb6de472-eb7f-426b-8d6f-110211483114" class=""><strong>Tools Used:</strong> Looker Studio</p><p id="7ee534aa-6c49-442a-994a-892b238822a6" class=""><strong>Link:</strong> <a href="https://lookerstudio.google.com/reporting/0822fab3-c4e8-4ff5-9f36-582b9c71ffbe">https://lookerstudio.google.com/reporting/0822fab3-c4e8-4ff5-9f36-582b9c71ffbe</a></p><figure id="3392179d-78e2-4427-bbc7-6347f4c04576"><div class="source"><a href="https://lookerstudio.google.com/embed/reporting/0822fab3-c4e8-4ff5-9f36-582b9c71ffbe/page/AHzhD">https://lookerstudio.google.com/embed/reporting/0822fab3-c4e8-4ff5-9f36-582b9c71ffbe/page/AHzhD</a></div><figcaption>Click link above to open the dashboard in full-size view</figcaption></figure><p id="e0941380-1c87-4558-a4cb-a69823ad8608" class="">A leading grocer chain in Portugal has requested a dashboard to afford stakeholders an overview of business sale performance across retail locations in the country. The original XLSX dataset was subject to data cleaning and transformation. It contains sales data, employee count and performance, and special events, opening hours, observed holidays, and special campaigns at store level.</p><p id="ed3f190e-cb85-44db-a40b-42932fd1378e" class="">The resulting dashboard was divided into two distinct pages: one focused on revenue analysis and the other dedicated to store-level analysis. </p><p id="6c50db1e-08b5-4e52-bcf2-660531d70b1b" class="">The Revenue Analysis provides insights into sales revenue, sold items, and their distribution across stores, regions, cities, and years. By laying out the sales revenue and sold items per store we help identify top-performing and underperforming stores, enabling targeted interventions or replicating best practices. Visualizing the same metrics per region and city is revealing of regional variations in sales performance, informing regional strategies and resource allocation, as well as the influence of urban demographics or local market conditions on sales performance.</p><p id="4e19a928-a70e-41ab-b2cf-e127edd516a8" class="">The Store-Level Analysis delves into employee count, productivity, and the relationship between employee metrics and store performance. Plotting a count comparison of traditional cashiers and self-checkout booths per store reveals insights into customer preferences and the adoption of self-service technologies across different locations. Lastly, scatter plots comparing employee count with store productivity and store revenue uncover relationships between staffing levels and store performance, informing stakeholders of staffing needs and resource allocation.</p><p id="7fcba99b-6e10-4c4f-bff0-ca06ef75aec7" class=""><strong>Results:</strong> (Describe the outcome of the project and any significant findings)</p></div></details><hr id="5db33b3a-db08-4f8f-b856-088276e9c651"/><p id="813616a8-8a7a-4894-ab9c-0a559ed15c56" class="">
+</p><details open=""><summary style="font-weight:600;font-size:1.5em;line-height:1.3;margin:0">Exploratory Data Analysis — The Metropolitan Museum of Art</summary><div class="indented"><p id="4d315054-a737-4078-a796-047b2db753a4" class=""><strong>Tools Used:</strong> Looker Studio</p><p id="f48e354a-ce3f-4d9b-b039-10394d1a00b0" class=""><strong>Link: </strong><a href="https://nbviewer.org/github/JonathonAustin/JonathonAustin.github.io/blob/main/MetDB%20%E2%80%94%20EDA.ipynb">https://nbviewer.org/github/JonathonAustin/JonathonAustin.github.io/blob/main/MetDB — EDA.ipynb</a></p><p id="feed3bd9-f988-45df-b1c0-4d8854ab4e86" class="">In 2017, the Metropolitan Museum of Art released an API to the public, providing access to over 420,000 data points regarding their collection. I will be using the downloadable version of this dataset available on GitHub at <a href="https://github.com/metmuseum/openaccess">https://github.com/metmuseum/openaccess</a></p><p id="dde27402-d35d-43a5-9e00-e7430e4ff857" class="">I perform an exploratory analysis of the variables to understand the nature of the dataset followed by a deeper look into the collection leveraging variables that shed light on the types of art the museum as acquired from various regions throughout the years.</p><figure id="0845559b-7939-4ac1-90bb-70d1767ce236"><div class="source"><a href="https://nbviewer.org/github/JonathonAustin/JonathonAustin.github.io/blob/main/MetDB%20%E2%80%94%20EDA.ipynb">https://nbviewer.org/github/JonathonAustin/JonathonAustin.github.io/blob/main/MetDB%20%E2%80%94%20EDA.ipynb</a></div><figcaption>Click link above to view the Interactive Python NoteBook</figcaption></figure></div></details><hr id="f75b8871-8429-4f41-9885-2d4481101c78"/><p id="d8dc1f64-6357-463e-911e-d29acc0ba1e0" class="">
+</p></div></details><hr id="0cd3aa67-4597-42cf-98f5-fa180fb9de67"/><p id="3c2d2ff8-a3dc-46fa-84bf-f1844011f103" class="">
+</p><details open=""><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">Certifications</summary><div class="indented"><ul id="52ccc9c5-cff5-4d24-94ee-c2180b7a7535" class="bulleted-list"><li style="list-style-type:disc">Data Science &amp; Business Analytics, @ <a href="https://weareedit.io/">EDIT. Disruptive Digital Education</a>, 2023—2024</li></ul><ul id="8f56fc0a-5f1f-4d57-ac5b-d48a3cf25a87" class="bulleted-list"><li style="list-style-type:disc">Power BI Data Analyst Academy, @ <a href="https://galileu.pt/">GALILEU/FLAG</a>, 2022—2023</li></ul><ul id="9765ddbb-b85b-4460-99b7-dd8b171d5198" class="bulleted-list"><li style="list-style-type:disc">Relational Databases and SQL Analysis, @ <a href="https://rumos.pt/en/training">Rumos</a>, 2023</li></ul><ul id="34442c55-a878-4839-a07f-d712c47e9db5" class="bulleted-list"><li style="list-style-type:disc">Advanced Excel 2019, @ <a href="https://galileu.pt/">GALILEU</a>, 2023</li></ul><ul id="788738b1-4966-480d-a103-0ce2f75a323e" class="bulleted-list"><li style="list-style-type:disc">Reports and Dashboarding, @ <a href="https://galileu.pt/">GALILEU</a>, 2023</li></ul><p id="061c6465-d40e-45b3-9b2e-883bb1afc5d6" class="">
+</p></div></details><hr id="d3f16ffd-305b-4aea-b734-18fedec7d7ad"/><p id="72976466-2389-46f1-a669-4cd8b1421928" class="">
+</p><details open=""><summary style="font-weight:600;font-size:1.875em;line-height:1.3;margin:0">Get in touch</summary><div class="indented"><p id="69a9399f-0644-45ee-8f5f-945b6b6ff74e" class=""><a href="mailto:jonathon.alp@gmail.com">E-Mail</a></p><p id="69f08397-7477-440a-b787-782cd8943a8d" class=""><a href="https://www.linkedin.com/in/jonathon-austin/">LinkedIn</a></p><p id="0f4caf3b-c420-498d-877e-5e88cc5b0eed" class=""><a href="https://github.com/JonathonAustin">GitHub</a></p><p id="0ef2d4ec-1d82-4579-98f0-cec6615b5dbd" class="">
+</p></div></details><hr id="d2dd1558-1518-4376-97d3-9927b6b5cb5a"/><p id="5540a45a-30d9-49a3-ab8e-cf08a85d8c08" class="">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
